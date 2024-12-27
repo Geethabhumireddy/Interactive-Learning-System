@@ -1,0 +1,85 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3bbbb;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for the video and audio section */
+#media {
+    display: flex; /* Use Flexbox to align items side by side */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content at the top */
+    margin-top: 20px;
+    gap: 20px; /* Add space between video and description */
+}
+
+/* Wrapper for the video and play button */
+#videoWrapper {
+    display: flex;
+    flex-direction: column; /* Stack video and play button vertically */
+    align-items: center;
+}
+
+/* Styling for the video player */
+#videoPlayer {
+    max-width: 800px; /* Set a max width for the video */
+    height: auto;
+}
+
+/* Play button */
+#playButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#playButton:hover {
+    background-color: #043106;
+}
+
+/* Container for the description */
+#descriptionContainer {
+    max-width: 400px; /* Set a max width for the description */
+    text-align: left;
+}
+
+/* Styling for a description */
+#descriptionText {
+    
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Styling for the audio player */
+#audioPlayer {
+    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Message container */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Ensure that the play button is centered */
+#playButtonWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
